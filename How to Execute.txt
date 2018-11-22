@@ -1,0 +1,23 @@
+Sentiment Analysis:
+python tweets_sentiment.py AFINN-111.txt AllTweets.txt
+
+python tweets_sentiment.py AFINN-111.txt LossTweets.txt
+
+Tf-Df:
+python tfdf.py AllTweets.txt
+
+python tfdf.py LossTweets.txt
+
+
+
+Test for first 20 tweets from AllTweets.txt file:
+
+Sentiment Analysis:
+python tweets_sentiment.py AFINN-111.txt TestTweets.txt
+
+Tf-Df:
+python tfdf.py TestTweets.txt
+
+
+
+AFINN file taken from:  http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010
